@@ -1,0 +1,210 @@
+.info-group {
+    padding: 90px;
+    background-image: url("5.webp");
+    background-position: right;
+  }
+  
+.info-content h2 {
+  color: #D3683C; /* Цвет надписи */
+  font-size: 25px; /* Размер шрифта заголовка */
+  text-align: center;
+  margin-top: 0px;
+  
+}
+
+.info-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.group-description {
+  color: white;
+  margin-top: 20px;
+}
+
+.group-description {
+  text-align: left;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.group-description h1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  color: #D3683C;
+}
+
+.group-description h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #D3683C;
+  font-size:large;
+}
+
+
+
+.sert{
+  background-image: url('5.webp');
+  background-size: cover;
+  background-position: left;
+
+}
+
+.text-sert h1 {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  color: #D3683C;
+  font-size: 30px;
+}
+
+
+.image-school{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.image-schl{
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+
+
+
+/* Рассылка */
+
+.Rassylka1 {
+  display: grid;
+  background-image: url('8.webp');
+  background-position: right;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.Rassylka1 h2 {
+  color: #D3683C;
+  font-size: 30px; /* Размер шрифта заголовка */
+  margin-top: 2rem; /* Отступ сверху кнопки */
+  text-align: center;
+}
+
+
+.Rassylka1 input {
+  padding: 10px;
+  border: 2px solid #D3683C;
+  background-color: #000;
+  color: #fff;
+  border-radius: 150px;
+  outline: none;
+  display: block;
+  margin: 0 auto; /* Центрирование по горизонтали */
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+
+.Rassylka1 input::placeholder {
+  color: #D3683C;
+}
+
+.Rassylka1 button {
+  padding: 10px 20px;
+  border: 2px solid #D3683C;
+  border-radius: 150px;
+  background-color: #361B10;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.7;
+  margin: 0 auto; /* Центрирование по горизонтали */
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+
+.Rassylka1 button:disabled {
+  cursor: not-allowed;
+}
+
+.Rassylka1 button:hover {
+  opacity: 1;
+  background-color: #000;
+  color: #D3683C;
+}
+
+
+
+/* Адаптивка на Телефон*/
+@media (max-width: 412px) {
+
+/* Блок 1 адаптивка телефон*/
+.info-group {
+  padding: 40px;
+}
+  
+.info-content h2 {
+  font-size: 20px; /* Размер шрифта заголовка */  
+}
+
+.paragraph {
+  font-size: 12px;
+}
+
+.info-content h3 {
+  font-size: 15px; /* Размер шрифта заголовка */  
+}
+
+/* Блок 2 адаптивка телефон*/
+
+.sert {
+  background-position: right;
+}
+
+.text-sert h1 {
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.image-school{
+  height: 300px;
+}
+
+.image-schl{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+/* Адаптивка на телефон блок - Рассылка */
+
+.Rassylka1 {
+  margin-right: 20px;
+}
+
+.Rassylka1 h2 {
+  font-size: 20px; /* Размер шрифта заголовка */
+}
+}
+
+
+
+/* Адаптивка на Планшет*/
+@media (max-width: 1024px) {
+  .Rassylka1 {
+    margin-right: 10px;
+  }
+}

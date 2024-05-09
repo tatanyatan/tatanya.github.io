@@ -1,0 +1,194 @@
+
+  .rounded-block {
+    background-color: rgb(0, 0, 0);
+    border: 5px solid #D3683C;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 20px 20px 70px;
+    width: 400px;
+    height: 480px;
+
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-blogg {
+    width: 350px;
+    margin-bottom: 30px;
+    border: 2px solid #D3683C;
+    transition: transform 0.3s;
+}
+
+
+.image-blogg:hover {
+  transform: scale(1.01); /* Увеличение изображения при наведении */
+}
+
+.rounded-block p{
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 90px;
+    font-size: 15px;
+}
+
+.submitе {
+  padding: 10px 10px; /* Отступы внутри кнопки */
+  border: 3px solid #D3683C;
+  opacity: 0.8;
+  border-radius: 50px; /* Закругленные углы */
+  background-color: #000; /* Цвет фона кнопки */
+  color: #fff; /* Цвет текста кнопки */
+  cursor: pointer; /* Курсор при наведении на кнопку */
+  margin-top: auto; /* Разместить кнопку внизу блока */
+  width: 350px; /* Ширина кнопки */
+  text-align: center;
+}
+
+.submitе:disabled {
+  cursor: not-allowed;
+}
+
+.submitе:hover {
+  opacity: 1;
+}
+
+
+.slayd1 {
+  background-image: url('8.webp'); /* Add this line to change the background color to pink */
+  background-position: bottom;
+  padding: 80px 90px 80px 90px;  
+}
+
+.sld {
+  margin-left: 20px;
+}
+
+.headingj {
+  font-size: 30px;
+  color:#D3683C ;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Адаптивка на Телефон*/
+@media (max-width: 412px) {
+  .headingj {
+    font-size: 22px;
+    margin-left: 12px;
+  }
+
+.container-blog {
+  display: flex;
+}
+
+.rounded-block {
+  width: 240px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+.image-blogg {
+  width: 180px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.rounded-block p{
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
+.submitе {
+  padding: 10px 10px; /* Отступы внутри кнопки */
+  background-color: #000; /* Цвет фона кнопки */
+  color: #fff; /* Цвет текста кнопки */
+  cursor: pointer; /* Курсор при наведении на кнопку */
+  margin-top: 10px; /* Разместить кнопку внизу блока */
+  width: 150px; /* Ширина кнопки */
+  text-align: center;
+  font-size: 10px;
+  margin-left: 23px;
+}
+.slayd1 {
+  background-image: url('8.webp'); /* Add this line to change the background color to pink */
+  background-position: bottom;
+  padding: 50px 50px 50px 50px;
+  height: 85vh;
+}
+}
+
+
+
+/* Адаптивка планшет*/
+@media (max-width: 1024px){
+
+  .rounded-block {
+    margin-left: 130px;
+  }
+
+.slayd1 {
+  height: 120vh;
+}
+}
+
+/* Адаптивка дополнительно*/
+@media (max-width: 768px) {
+  .sld-container {
+    margin-bottom: 2px;
+  }
+
+  .container-blog {
+    display: flex;
+  }
+  
+  .rounded-block {
+    width: 310px;
+    height: 360px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+  }
+  
+  .image-blogg {
+    width: 260px;
+    margin-bottom: 20px;
+  }
+  
+  .rounded-block p{
+    margin-left: 70px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  
+  .submitе {
+    padding: 10px 10px; /* Отступы внутри кнопки */
+    background-color: #000; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    cursor: pointer; /* Курсор при наведении на кнопку */
+    margin-top: 10px; /* Разместить кнопку внизу блока */
+    width: 150px; /* Ширина кнопки */
+    text-align: center;
+    font-size: 10px;
+    margin-left: 55px;
+  }
+  .slayd1 {
+    background-image: url('8.webp'); /* Add this line to change the background color to pink */
+    background-position: bottom;
+    padding: 25px 50px 50px 50px;
+    height: 85vh;
+  }
+}

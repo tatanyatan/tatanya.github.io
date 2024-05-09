@@ -1,0 +1,385 @@
+
+
+/* 1 блок сайта */
+.about {
+    color: beige;
+    background-image: url("8.webp");
+    background-size: cover;
+    background-position: bottom;
+    height: 88vh; /* Высота блока равна высоте экрана */  
+    display: flex;
+    flex-direction: column;
+  }
+
+.about h1 {
+    color: #D3683C;
+    font-size: 2rem; /* Размер шрифта заголовка */
+    margin-top: 40px; /* Отступ сверху кнопки */
+    margin-bottom: 2rem;
+    margin-left: 200px;
+}
+
+.text-blockkk {
+   text-align: left;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+
+.text-blockkk p{
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+
+/*2 БЛОК*/
+
+.container3 {
+    padding: 90px;
+    background-image: url(5.webp);
+    background-size: cover;
+    background-position: right;
+    height: auto;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.Yslygi {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: #D3683C;
+    text-align: center;
+}
+
+.contenty {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 10px;
+  }
+
+.text-blocke {
+    width: 50%;
+    text-align: left;
+    color: #fff;
+    font-size: 12px;
+}
+
+.text-blocke p {
+    margin-bottom: 1rem;
+}
+
+.image-blocke {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  
+.imagee {
+    width: 80%;
+    height: 90%;
+    border-radius: 10%;
+}
+
+
+.butn {
+    margin-top: 15px;
+    padding: 10px 100px;
+    border: 2px solid #D3683C;
+    border-radius: 150px;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+  
+.butn:hover {
+    opacity: 1;
+}
+
+
+
+/* Слайдер*/
+
+.slayd {
+  background-image: url('8.webp');
+  background-position: bottom;
+  padding: 50px 70px 80px 80px;
+  margin-left: 0px;
+}
+
+.centered-container11 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #D3683C;
+  background-color:#000000;
+  width: 400px;
+  height: 470px;
+  border-radius: 60px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.content11 {
+  margin: 6px ;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Выравнивание всех элементов, кроме основного текста, по центру */
+}
+
+.content11 h1{
+  color: #D3683C ;
+  font-size: large;
+  margin-top: 3px;
+}
+
+.content11 p {
+  text-align: left;
+  float: left;
+  color: white; 
+  font-size: 13px;
+}
+
+.photo1{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.photo2 {
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+}
+
+.heading {
+  color: #D3683C;
+  margin-bottom: 70px;
+}
+
+
+
+
+
+
+/* Адаптивка на Телефон*/
+@media (max-width: 412px) {
+
+/* 1 блок сайта  адаптивка телефон*/
+.about {
+  height: auto; /* Высота блока равна высоте экрана */  
+}
+
+.about h1 {
+  margin-left: 165px;
+  font-size: 20px;
+}
+
+.text-blockkk {
+  margin: 0px 50px 50px 50px;
+}
+
+.text-blockkk p{
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+
+
+/* Адаптивка блок 2 для телефона*/
+
+.container3 {
+  padding: 50px;
+}
+
+.Yslygi {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.contenty {
+  flex-direction: column;
+}
+
+.text-blocke{
+  width: 100%;
+}
+
+.image-blocke {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.butn {
+  margin-top: 20px;
+}
+
+
+.butn {
+  padding: 10px 60px;
+  font-size: 12px;
+}
+
+
+
+/* Адаптивка на телефон  - Слайдер*/
+
+.slayd {
+  padding: 50px ;
+}
+
+.centered-container11 {
+  width: 220px;
+  height: 400px;
+  margin-left: 10px;
+  padding: 15px;
+}
+
+.content11 h1{
+  font-size: 15px;
+}
+
+.content11 p {
+  font-size: 10px;
+}
+
+.photo1{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.photo2 {
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+}
+
+}
+
+
+/* Адаптивка планшет*/
+@media (max-width: 1024px){
+  /* 1 блок сайта  адаптивка планшет*/
+.about {
+  height: 400px; /* Высота блока равна высоте экрана */  
+}
+
+.about h1 {
+  margin-left: 165px;
+  font-size: 20px;
+}
+
+.text-blockkk {
+  margin: 0px 150px 0px 144px;
+}
+
+.text-blockkk p{
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+
+
+/* Адаптивка блок 2 для телефона*/
+
+.container3 {
+  padding: 50px;
+}
+
+.Yslygi {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.contenty {
+  flex-direction: column;
+}
+
+.text-blocke{
+  width: 100%;
+  text-align: center;
+}
+
+.image-blocke {
+  width: 40%;
+  margin: 10px 0 10px 219px;
+}
+
+.butn {
+  margin-top: 20px;
+}
+
+
+.butn {
+  padding: 10px 60px;
+  font-size: 12px;
+}
+
+
+
+/* Адаптивка на телефон  - Слайдер*/
+
+.slayd {
+  padding: 70px ;
+}
+
+.centered-container11 {
+  width: 350px;
+  height: 400px;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.content11 h1{
+  font-size: 15px;
+}
+
+
+.photo1{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.photo2 {
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+}
+
+.heading{
+  font-size: 30px;
+}
+}
+
+/* Адаптивка дополнительно*/
+@media (max-width: 768px) {
+
+/* 1 блок сайта  адаптивка телефон*/
+.about {
+  height: auto; /* Высота блока равна высоте экрана */  
+}
+
+.about h1 {
+  font-size: 3vh;
+}
+
+.text-blockkk {
+  margin: 0px 50px 50px 50px;
+}
+
+.text-blockkk p{
+  margin-bottom: 1rem;
+  font-size: 2vh;
+}
+
+
+.image-blocke {
+  margin: 10px 0 10px 22vh;
+}
+
+}

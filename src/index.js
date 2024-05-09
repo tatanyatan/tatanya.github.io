@@ -2,12 +2,67 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Blog from './Blog';
+import About from './About';
+import Schoolcola from "./School";
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Outlet
+} from "react-router-dom";
+import Header from './Header';
+import Footer from './Footer';
+import Astroseans from './Seans';
+import Erore404 from './Erore';
+
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Root />,
+    children: [
+      {
+        path: "/",
+        element: <App />,
+      },
+      {
+        path: "/astroseans",
+        element: <Astroseans />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/school",
+        element: <Schoolcola />,
+      },
+       // Добавляем страницу 404 для всех остальных путей
+       {
+        path: "*",
+        element: <Erore404 />, // Замените Error404 на ваш компонент ошибки
+      },
+    ]
+  },
+]);
+
+function Root() {
+  return (<>
+    <Header />
+    <Outlet />
+    <Footer />
+  </>);
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

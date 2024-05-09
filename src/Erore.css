@@ -1,0 +1,38 @@
+
+.Oshibka {
+    background-image: url("5.webp");
+    background-size: cover;
+    height: 90vh; /* Высота блока равна высоте экрана */
+    display: flex;
+    align-items: center; /* Вертикальное выравнивание содержимого по центру */
+    justify-content: center; /* Горизонтальное выравнивание содержимого по центру */
+    background-position: center;
+  }
+  
+  .Oshibka-text {
+    text-align: center;
+  }
+  
+  .Oshibka-text h1{
+    font-size: 40px; /* Размер шрифта заголовка */
+    margin-bottom: 10px; /* Отступ снизу заголовка */
+    color: #D3683C; /* Цвет заголовка */
+    font-weight: bolder; /* Полужирный шрифт заголовка */
+  }
+
+  .Oshibka-text p{
+    font-size: 20px; /* Размер шрифта заголовка */
+    color: #ffffff; /* Цвет заголовка */
+  }
+  
+
+  @media (max-width: 767px) {
+    .Oshibka-text h1{
+        font-size: 30px; /* Размер шрифта заголовка */
+      }
+    
+      .Oshibka-text p{
+        font-size: 15px; /* Размер шрифта заголовка */
+
+      }
+  }
