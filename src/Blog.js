@@ -55,9 +55,6 @@ function Bloge() {
         window.location.href = "https://www.youtube.com/watch?v=bWfeGudpc9k";
     };
 
-    const handleClick3 = () => {
-        window.location.href = "https://www.youtube.com/watch?v=rT_8ChdNkhw";
-    };
 
     const handleClick4 = () => {
         window.location.href = "https://uznayvse.ru/astrology/ascendent-v-goroskope-chto-tvoy-voshodyaschiy-znak-govorit-o-tebe.html";
@@ -96,23 +93,6 @@ function Bloge() {
                 </div>
             </div>
 
-            <div className="sld">
-                <div className="rounded-block">
-                <div className="image-blogg">
-                    <img className="image-blog" src="man.webp" alt="" />
-                </div>
-                <div className="text-blog">
-                    <p>
-                    Характеристика всех знаков зодиака. Cоветы от канала Астронова
-                    </p>
-                </div>
-                <div className="submitе">
-                    <button type="submitе" onClick={handleClick3}>
-                    Смотреть на YouTube
-                    </button> 
-                </div>
-                </div>
-            </div>
 
             <div className="sld">
                 <div className="rounded-block">
