@@ -99,7 +99,7 @@ function Bloge() {
             <div className="sld">
                 <div className="rounded-block">
                 <div className="image-blogg">
-                    <img className="image-blog" src="protestyu.webp" alt="" />
+                    <img className="image-blog" src="man.webp" alt="" />
                 </div>
                 <div className="text-blog">
                     <p>
