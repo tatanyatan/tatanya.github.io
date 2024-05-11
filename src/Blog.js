@@ -55,7 +55,6 @@ function Bloge() {
         window.location.href = "https://www.youtube.com/watch?v=bWfeGudpc9k";
     };
 
-
     const handleClick4 = () => {
         window.location.href = "https://uznayvse.ru/astrology/ascendent-v-goroskope-chto-tvoy-voshodyaschiy-znak-govorit-o-tebe.html";
     };
